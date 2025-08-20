@@ -1,8 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+# WeatherApp
+
+WeatherApp is a modern weather dashboard built with [Next.js](https://nextjs.org) using the App Router. It features a beautiful, responsive UI with a professional layout, animated card, and gradient backgrounds.
 
 ## Getting Started
 
-First, run the development server:
+## Features
+
+- Beautiful, modern UI with animated card and gradient backgrounds
+- Responsive design for desktop and mobile
+- Built with Next.js App Router and TypeScript
+- API routes for weather data
+
+## Getting Started
+
+First, install dependencies and run the development server:
 
 ```bash
 npm run dev
@@ -16,7 +27,11 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/route.ts`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the main page by modifying `src/app/page.tsx`.
+
+The root layout is in `src/app/layout.tsx` and global styles are in `src/app/globals.css`.
 
 ## Learn More
 
@@ -35,6 +50,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## API Routes
 
-This directory contains example API routes for the headless API app.
+API routes are located in `src/app/api/`. For example, weather data can be accessed via `src/app/api/weather/route.ts`.
 
 For more details, see [route.js file convention](https://nextjs.org/docs/app/api-reference/file-conventions/route).
